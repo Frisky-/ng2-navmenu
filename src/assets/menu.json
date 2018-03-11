@@ -1,0 +1,2440 @@
+{  
+   "id":"main_nav_menu",
+   "name":null,
+   "displayName":"main_nav_menu",
+   "shortcut":null,
+   "icon":null,
+   "actionType":"OTHER",
+   "actionCmd":null,
+   "childs":[  
+      {  
+         "id":"0",
+         "name":"PRODUCTION",
+         "displayName":"PRODUCTION",
+         "shortcut":"(P)",
+         "icon":null,
+         "actionType":"OTHER",
+         "actionCmd":null,
+         "childs":[  
+            {  
+               "id":"1",
+               "name":"Visualisation et mise a jour",
+               "displayName":"Display and update",
+               "shortcut":null,
+               "icon":"visualisation.gif",
+               "actionType":"FORM",
+               "actionCmd":"e_fhsel",
+               "childs":[  
+
+               ]
+            },
+            {  
+               "id":"2",
+               "name":"Archivage",
+               "displayName":"Archiving",
+               "shortcut":"(A)",
+               "icon":null,
+               "actionType":"OTHER",
+               "actionCmd":null,
+               "childs":[  
+                  {  
+                     "id":"3",
+                     "name":"Demande d'archivage",
+                     "displayName":"Archiving request",
+                     "shortcut":"(D)",
+                     "icon":null,
+                     "actionType":"FORM",
+                     "actionCmd":"e_archel",
+                     "childs":[  
+
+                     ]
+                  },
+                  {  
+                     "id":"4",
+                     "name":"Demande Desarchivage",
+                     "displayName":"Dearchiving request",
+                     "shortcut":"(e)",
+                     "icon":null,
+                     "actionType":"FORM",
+                     "actionCmd":"e_dearchel",
+                     "childs":[  
+
+                     ]
+                  }
+               ]
+            },
+            {  
+               "id":"5",
+               "name":"Support archivage",
+               "displayName":"Archiving support",
+               "shortcut":"(e)",
+               "icon":null,
+               "actionType":"FORM",
+               "actionCmd":"e_viarch",
+               "childs":[  
+
+               ]
+            },
+            {  
+               "id":"6",
+               "name":"Traitement de l'agenda",
+               "displayName":"Diary processing",
+               "shortcut":"(i)",
+               "icon":"agenda.gif",
+               "actionType":"OTHER",
+               "actionCmd":null,
+               "childs":[  
+                  {  
+                     "id":"7",
+                     "name":"Suivi dossiers auto",
+                     "displayName":"Auto case follow-up",
+                     "shortcut":"(S)",
+                     "icon":null,
+                     "actionType":"FORM",
+                     "actionCmd":"e_globalagenda",
+                     "childs":[  
+
+                     ]
+                  },
+                  {  
+                     "id":"8",
+                     "name":"Suivi dossiers manu",
+                     "displayName":"Manual case follow-up",
+                     "shortcut":"(u)",
+                     "icon":null,
+                     "actionType":"FORM",
+                     "actionCmd":"e_statmpb",
+                     "childs":[  
+
+                     ]
+                  },
+                  {  
+                     "id":"9",
+                     "name":"Suivi dossiers RANGMT",
+                     "displayName":"Managers’cases follow-up",
+                     "shortcut":"(i)",
+                     "icon":null,
+                     "actionType":"FORM",
+                     "actionCmd":"e_statrangmt",
+                     "childs":[  
+
+                     ]
+                  },
+                  {  
+                     "id":"10",
+                     "name":"Suivi agenda non SE",
+                     "displayName":"Non ES diary follow-up",
+                     "shortcut":"(a)",
+                     "icon":null,
+                     "actionType":"FORM",
+                     "actionCmd":"e_statnonse",
+                     "childs":[  
+
+                     ]
+                  },
+                  {  
+                     "id":"11",
+                     "name":"Statistiques",
+                     "displayName":"Statistics",
+                     "shortcut":"(t)",
+                     "icon":null,
+                     "actionType":"FORM",
+                     "actionCmd":"e_trstat",
+                     "childs":[  
+
+                     ]
+                  },
+                  {  
+                     "id":"12",
+                     "name":"Suivi global agenda",
+                     "displayName":"Global agenda",
+                     "shortcut":"(g)",
+                     "icon":null,
+                     "actionType":"FORM",
+                     "actionCmd":"e_globalagenda",
+                     "childs":[  
+
+                     ]
+                  }
+               ]
+            },
+            {  
+               "id":"13",
+               "name":"Pilotage",
+               "displayName":"Steering",
+               "shortcut":"(S)",
+               "icon":null,
+               "actionType":"OTHER",
+               "actionCmd":null,
+               "childs":[  
+                  {  
+                     "id":"14",
+                     "name":"Indicateurs généraux",
+                     "displayName":"General indicators",
+                     "shortcut":"(I)",
+                     "icon":null,
+                     "actionType":"FORM",
+                     "actionCmd":"e_aff_pilotd",
+                     "childs":[  
+
+                     ]
+                  },
+                  {  
+                     "id":"15",
+                     "name":"Statistiques Rappels",
+                     "displayName":"Reminder Statistics",
+                     "shortcut":"(S)",
+                     "icon":null,
+                     "actionType":"FORM",
+                     "actionCmd":"e_stat_remind",
+                     "childs":[  
+
+                     ]
+                  },
+                  {  
+                     "id":"16",
+                     "name":"Commitment file",
+                     "displayName":"Commitment file",
+                     "shortcut":"(C)",
+                     "icon":null,
+                     "actionType":"FORM",
+                     "actionCmd":"e_aff_commit",
+                     "childs":[  
+
+                     ]
+                  },
+                  {  
+                     "id":"17",
+                     "name":"Commitment file AG",
+                     "displayName":"Commitment file AG",
+                     "shortcut":"(o)",
+                     "icon":null,
+                     "actionType":"FORM",
+                     "actionCmd":"e_erf_commit",
+                     "childs":[  
+
+                     ]
+                  }
+               ]
+            },
+            {  
+               "id":"18",
+               "name":"Factures de Tiers",
+               "displayName":"Third party invoices",
+               "shortcut":"(T)",
+               "icon":null,
+               "actionType":"OTHER",
+               "actionCmd":null,
+               "childs":[  
+                  {  
+                     "id":"19",
+                     "name":"Recherche Facture",
+                     "displayName":"Invoicing third parties",
+                     "shortcut":"(R)",
+                     "icon":null,
+                     "actionType":"FORM",
+                     "actionCmd":"e_rechtiers",
+                     "childs":[  
+
+                     ]
+                  },
+                  {  
+                     "id":"20",
+                     "name":"Création Paiement",
+                     "displayName":"Create payment",
+                     "shortcut":"(C)",
+                     "icon":null,
+                     "actionType":"FORM",
+                     "actionCmd":"e_rglotie?P_MODE=PAIEMENT",
+                     "childs":[  
+
+                     ]
+                  },
+                  {  
+                     "id":"21",
+                     "name":"Création Règlement",
+                     "displayName":"Create settlment",
+                     "shortcut":"(a)",
+                     "icon":null,
+                     "actionType":"FORM",
+                     "actionCmd":"e_rglotie?P_MODE=REGLEMENT",
+                     "childs":[  
+
+                     ]
+                  },
+                  {  
+                     "id":"22",
+                     "name":"Commissions apporteur",
+                     "displayName":"Broker commissions",
+                     "shortcut":"(o)",
+                     "icon":null,
+                     "actionType":"FORM",
+                     "actionCmd":"e_remb_brc",
+                     "childs":[  
+
+                     ]
+                  }
+               ]
+            },
+            {  
+               "id":"23",
+               "name":"Sélection cofactor",
+               "displayName":"Co-factor selection",
+               "shortcut":"(o)",
+               "icon":null,
+               "actionType":"FORM",
+               "actionCmd":"e_aff_selcof",
+               "childs":[  
+
+               ]
+            },
+            {  
+               "id":"24",
+               "name":"Lots de dossiers",
+               "displayName":"Batch of cases",
+               "shortcut":"(o)",
+               "icon":null,
+               "actionType":"OTHER",
+               "actionCmd":"cli_ecran",
+               "childs":[  
+
+               ]
+            },
+            {  
+               "id":"25",
+               "name":"Création d'un contrat reverse",
+               "displayName":"Création d'un contrat reverse",
+               "shortcut":"(o)",
+               "icon":null,
+               "actionType":"FORM",
+               "actionCmd":"e_aff_ctrcreat",
+               "childs":[  
+
+               ]
+            },
+            {  
+               "id":"26",
+               "name":"Base des individus",
+               "displayName":"Individuals base",
+               "shortcut":"(n)",
+               "icon":"individus.gif",
+               "actionType":"OTHER",
+               "actionCmd":null,
+               "childs":[  
+                  {  
+                     "id":"27",
+                     "name":"M-a-j des individus",
+                     "displayName":"Individuals update",
+                     "shortcut":"(M)",
+                     "icon":null,
+                     "actionType":"FORM",
+                     "actionCmd":"e_selindiv",
+                     "childs":[  
+
+                     ]
+                  },
+                  {  
+                     "id":"28",
+                     "name":"Validation",
+                     "displayName":"Individuals validation",
+                     "shortcut":"(V)",
+                     "icon":null,
+                     "actionType":"FORM",
+                     "actionCmd":"e_val_ind",
+                     "childs":[  
+
+                     ]
+                  },
+                  {  
+                     "id":"29",
+                     "name":"Fusion",
+                     "displayName":"Merger",
+                     "shortcut":"(F)",
+                     "icon":null,
+                     "actionType":"FORM",
+                     "actionCmd":"e_dem_fus_ind",
+                     "childs":[  
+
+                     ]
+                  },
+                  {  
+                     "id":"30",
+                     "name":"Groupes",
+                     "displayName":"Groups",
+                     "shortcut":"(G)",
+                     "icon":null,
+                     "actionType":"FORM",
+                     "actionCmd":"e_groupindiv",
+                     "childs":[  
+
+                     ]
+                  },
+                  {  
+                     "id":"31",
+                     "name":"Banks",
+                     "displayName":"Banks",
+                     "shortcut":"(B)",
+                     "icon":null,
+                     "actionType":"FORM",
+                     "actionCmd":"e_selbq",
+                     "childs":[  
+
+                     ]
+                  },
+                  {  
+                     "id":"32",
+                     "name":"CI Debtor data",
+                     "displayName":"DB data from ext. provider",
+                     "shortcut":"(C)",
+                     "icon":null,
+                     "actionType":"FORM",
+                     "actionCmd":"e_affcof2",
+                     "childs":[  
+
+                     ]
+                  },
+                  {  
+                     "id":"33",
+                     "name":"Supression des individus",
+                     "displayName":"Removal of individuals",
+                     "shortcut":"(S)",
+                     "icon":null,
+                     "actionType":"FORM",
+                     "actionCmd":"e_majindiv",
+                     "childs":[  
+
+                     ]
+                  },
+                  {  
+                     "id":"34",
+                     "name":"Structure Société",
+                     "displayName":"Company structure",
+                     "shortcut":"(t)",
+                     "icon":null,
+                     "actionType":"FORM",
+                     "actionCmd":"e_liensoc",
+                     "childs":[  
+
+                     ]
+                  }
+               ]
+            },
+            {  
+               "id":"35",
+               "name":"Gestion des releves",
+               "displayName":"Invoicing management",
+               "shortcut":"(v)",
+               "icon":null,
+               "actionType":"OTHER",
+               "actionCmd":null,
+               "childs":[  
+                  {  
+                     "id":"36",
+                     "name":" Reglements",
+                     "displayName":" Payment of invoices",
+                     "shortcut":"(R)",
+                     "icon":null,
+                     "actionType":"FORM",
+                     "actionCmd":"e_affreleve",
+                     "childs":[  
+
+                     ]
+                  }
+               ]
+            },
+            {  
+               "id":"37",
+               "name":"Remises de factures & NC",
+               "displayName":"Assignment forms & Credit notes",
+               "shortcut":"(g)",
+               "icon":null,
+               "actionType":"OTHER",
+               "actionCmd":null,
+               "childs":[  
+                  {  
+                     "id":"38",
+                     "name":"Saisie remise",
+                     "displayName":"Assignment form entry",
+                     "shortcut":"(S)",
+                     "icon":null,
+                     "actionType":"FORM",
+                     "actionCmd":"e_affact",
+                     "childs":[  
+
+                     ]
+                  },
+                  {  
+                     "id":"39",
+                     "name":"Validation remise",
+                     "displayName":"Assignment form validation",
+                     "shortcut":"(V)",
+                     "icon":null,
+                     "actionType":"FORM",
+                     "actionCmd":"e_affact_val",
+                     "childs":[  
+
+                     ]
+                  },
+                  {  
+                     "id":"40",
+                     "name":"CL invoice lot management",
+                     "displayName":"CL invoice lot management",
+                     "shortcut":"(C)",
+                     "icon":null,
+                     "actionType":"FORM",
+                     "actionCmd":"e_invlot",
+                     "childs":[  
+
+                     ]
+                  }
+               ]
+            },
+            {  
+               "id":"41",
+               "name":"Paiements",
+               "displayName":"Payment  flows",
+               "shortcut":"(P)",
+               "icon":null,
+               "actionType":"OTHER",
+               "actionCmd":null,
+               "childs":[  
+                  {  
+                     "id":"42",
+                     "name":"Collecte banque",
+                     "displayName":"View//Entry bank statements",
+                     "shortcut":"(C)",
+                     "icon":null,
+                     "actionType":"FORM",
+                     "actionCmd":"e_namcol",
+                     "childs":[  
+
+                     ]
+                  },
+                  {  
+                     "id":"43",
+                     "name":"Paiements sortants",
+                     "displayName":"Outgoing payments",
+                     "shortcut":"(P)",
+                     "icon":null,
+                     "actionType":"FORM",
+                     "actionCmd":"e_aff_pmtemis",
+                     "childs":[  
+
+                     ]
+                  },
+                  {  
+                     "id":"44",
+                     "name":"Paiements non lettrés",
+                     "displayName":"Unmatched payments",
+                     "shortcut":"(a)",
+                     "icon":null,
+                     "actionType":"FORM",
+                     "actionCmd":"e_pmtalettrer",
+                     "childs":[  
+
+                     ]
+                  },
+                  {  
+                     "id":"45",
+                     "name":"Recherche encaissements",
+                     "displayName":"Payments search",
+                     "shortcut":"(R)",
+                     "icon":null,
+                     "actionType":"FORM",
+                     "actionCmd":"e_selencaiss",
+                     "childs":[  
+
+                     ]
+                  }
+               ]
+            },
+            {  
+               "id":"46",
+               "name":"Litiges",
+               "displayName":"Disputes",
+               "shortcut":"(R)",
+               "icon":null,
+               "actionType":"FORM",
+               "actionCmd":"e_dispute",
+               "childs":[  
+
+               ]
+            },
+            {  
+               "id":"47",
+               "name":"Création limites",
+               "displayName":"Limits creation",
+               "shortcut":"(R)",
+               "icon":null,
+               "actionType":"FORM",
+               "actionCmd":"e_affcrereq",
+               "childs":[  
+
+               ]
+            },
+            {  
+               "id":"48",
+               "name":"Portefeuille",
+               "displayName":"Portfolio",
+               "shortcut":"(R)",
+               "icon":null,
+               "actionType":"FORM",
+               "actionCmd":"e_aff_encours",
+               "childs":[  
+
+               ]
+            },
+            {  
+               "id":"49",
+               "name":"Validation Décompte",
+               "displayName":"Statement validation",
+               "shortcut":"(R)",
+               "icon":null,
+               "actionType":"FORM",
+               "actionCmd":"e_aff_decval",
+               "childs":[  
+
+               ]
+            },
+            {  
+               "id":"50",
+               "name":"Gestion des mails",
+               "displayName":"Emails handling",
+               "shortcut":"(m)",
+               "icon":null,
+               "actionType":"OTHER",
+               "actionCmd":null,
+               "childs":[  
+                  {  
+                     "id":"51",
+                     "name":"Mail Courriers",
+                     "displayName":"Email settings",
+                     "shortcut":"(M)",
+                     "icon":null,
+                     "actionType":"FORM",
+                     "actionCmd":"e_prmmailauto",
+                     "childs":[  
+
+                     ]
+                  },
+                  {  
+                     "id":"52",
+                     "name":"Reception des mails",
+                     "displayName":"Incoming e-mails",
+                     "shortcut":"(R)",
+                     "icon":null,
+                     "actionType":"FORM",
+                     "actionCmd":"e_suivimail",
+                     "childs":[  
+
+                     ]
+                  },
+                  {  
+                     "id":"53",
+                     "name":"Mail Int",
+                     "displayName":"Email settings per inv. party",
+                     "shortcut":"(a)",
+                     "icon":null,
+                     "actionType":"FORM",
+                     "actionCmd":"e_prmmailint",
+                     "childs":[  
+
+                     ]
+                  },
+                  {  
+                     "id":"54",
+                     "name":"Envoi des mails",
+                     "displayName":"Outgoing mails",
+                     "shortcut":"(E)",
+                     "icon":null,
+                     "actionType":"FORM",
+                     "actionCmd":"e_mail",
+                     "childs":[  
+
+                     ]
+                  },
+                  {  
+                     "id":"55",
+                     "name":"Admin Mail",
+                     "displayName":"Email management",
+                     "shortcut":"(i)",
+                     "icon":null,
+                     "actionType":"FORM",
+                     "actionCmd":"e_mailadmin",
+                     "childs":[  
+
+                     ]
+                  },
+                  {  
+                     "id":"56",
+                     "name":"Configuration des Emails",
+                     "displayName":"Email configuration",
+                     "shortcut":"(C)",
+                     "icon":null,
+                     "actionType":"FORM",
+                     "actionCmd":"e_mailconfig",
+                     "childs":[  
+
+                     ]
+                  },
+                  {  
+                     "id":"57",
+                     "name":null,
+                     "displayName":null,
+                     "shortcut":null,
+                     "icon":null,
+                     "actionType":"OTHER",
+                     "actionCmd":null,
+                     "childs":[  
+
+                     ]
+                  }
+               ]
+            },
+            {  
+               "id":"58",
+               "name":"Saisie en rafale",
+               "displayName":"Mass entry",
+               "shortcut":"(y)",
+               "icon":null,
+               "actionType":"OTHER",
+               "actionCmd":null,
+               "childs":[  
+                  {  
+                     "id":"59",
+                     "name":"Emission courriers",
+                     "displayName":"Mail creation",
+                     "shortcut":"(E)",
+                     "icon":null,
+                     "actionType":"FORM",
+                     "actionCmd":"e_lscoucig",
+                     "childs":[  
+
+                     ]
+                  },
+                  {  
+                     "id":"60",
+                     "name":"Saisie pieces",
+                     "displayName":"Document entry",
+                     "shortcut":"(S)",
+                     "icon":null,
+                     "actionType":"FORM",
+                     "actionCmd":"e_lspiece",
+                     "childs":[  
+
+                     ]
+                  },
+                  {  
+                     "id":"61",
+                     "name":"Saisie encaissements",
+                     "displayName":"Enter payments",
+                     "shortcut":"(a)",
+                     "icon":null,
+                     "actionType":"FORM",
+                     "actionCmd":"e_mvtfds",
+                     "childs":[  
+
+                     ]
+                  },
+                  {  
+                     "id":"62",
+                     "name":"Saisie informations",
+                     "displayName":"Information",
+                     "shortcut":"(i)",
+                     "icon":null,
+                     "actionType":"FORM",
+                     "actionCmd":"e_lsinfo",
+                     "childs":[  
+
+                     ]
+                  }
+               ]
+            },
+            {  
+               "id":"63",
+               "name":"iMX forms translation",
+               "displayName":"iMX forms translation",
+               "shortcut":"(i)",
+               "icon":null,
+               "actionType":"FORM",
+               "actionCmd":"e_trad_ecrans",
+               "childs":[  
+
+               ]
+            },
+            {  
+               "id":"64",
+               "name":"Campagne individu",
+               "displayName":"Individuals campaign",
+               "shortcut":"(i)",
+               "icon":null,
+               "actionType":"FORM",
+               "actionCmd":"e_action_campaign",
+               "childs":[  
+
+               ]
+            },
+            {  
+               "id":"65",
+               "name":"Création d'un contrat reverse",
+               "displayName":"Creation of a reverse contract",
+               "shortcut":"(i)",
+               "icon":null,
+               "actionType":"FORM",
+               "actionCmd":"e_aff_ctrcreat",
+               "childs":[  
+
+               ]
+            }
+         ]
+      },
+      {  
+         "id":"66",
+         "name":"Error messages set-up",
+         "displayName":"ENTERPRISE",
+         "shortcut":"(E)",
+         "icon":null,
+         "actionType":"OTHER",
+         "actionCmd":null,
+         "childs":[  
+            {  
+               "id":"67",
+               "name":"Base des regles",
+               "displayName":"Rule base",
+               "shortcut":"(R)",
+               "icon":null,
+               "actionType":"OTHER",
+               "actionCmd":null,
+               "childs":[  
+                  {  
+                     "id":"68",
+                     "name":"Groupes de regles",
+                     "displayName":"Groups",
+                     "shortcut":"(G)",
+                     "icon":null,
+                     "actionType":"OTHER",
+                     "actionCmd":"U/stej/regles.jsp?runtype=7&uname=",
+                     "childs":[  
+
+                     ]
+                  },
+                  {  
+                     "id":"69",
+                     "name":"Procedures",
+                     "displayName":"Procedures",
+                     "shortcut":"(P)",
+                     "icon":null,
+                     "actionType":"OTHER",
+                     "actionCmd":"U/stej/regles.jsp?runtype=5&uname=",
+                     "childs":[  
+
+                     ]
+                  },
+                  {  
+                     "id":"70",
+                     "name":"Textes",
+                     "displayName":"Texts",
+                     "shortcut":"(T)",
+                     "icon":null,
+                     "actionType":"OTHER",
+                     "actionCmd":"U/stej/regles.jsp?runtype=4&uname=",
+                     "childs":[  
+
+                     ]
+                  },
+                  {  
+                     "id":"71",
+                     "name":"Tribunaux",
+                     "displayName":"Courts",
+                     "shortcut":"(r)",
+                     "icon":null,
+                     "actionType":"OTHER",
+                     "actionCmd":"U/stej/regles.jsp?runtype=2&uname=",
+                     "childs":[  
+
+                     ]
+                  },
+                  {  
+                     "id":"72",
+                     "name":"Agenda",
+                     "displayName":"Diary",
+                     "shortcut":"(A)",
+                     "icon":null,
+                     "actionType":"OTHER",
+                     "actionCmd":"U/stej/regles.jsp?runtype=6&uname=",
+                     "childs":[  
+
+                     ]
+                  },
+                  {  
+                     "id":"73",
+                     "name":"Calculs",
+                     "displayName":"Calculations",
+                     "shortcut":"(C)",
+                     "icon":null,
+                     "actionType":"OTHER",
+                     "actionCmd":"U/stej/regles.jsp?runtype=9&uname=",
+                     "childs":[  
+
+                     ]
+                  },
+                  {  
+                     "id":"74",
+                     "name":"Couts",
+                     "displayName":"Costs",
+                     "shortcut":"(o)",
+                     "icon":null,
+                     "actionType":"OTHER",
+                     "actionCmd":"U/stej/regles.jsp?runtype=10&uname=",
+                     "childs":[  
+
+                     ]
+                  },
+                  {  
+                     "id":"75",
+                     "name":"Banques",
+                     "displayName":"Banks",
+                     "shortcut":"(B)",
+                     "icon":null,
+                     "actionType":"OTHER",
+                     "actionCmd":"U/stej/regles.jsp?runtype=8&uname=",
+                     "childs":[  
+
+                     ]
+                  },
+                  {  
+                     "id":"76",
+                     "name":"Destinataires",
+                     "displayName":"Addressees",
+                     "shortcut":"(D)",
+                     "icon":null,
+                     "actionType":"OTHER",
+                     "actionCmd":"U/stej/regles.jsp?runtype=1&uname=",
+                     "childs":[  
+
+                     ]
+                  }
+               ]
+            },
+            {  
+               "id":"77",
+               "name":"Base des textes",
+               "displayName":"Texts base",
+               "shortcut":"(T)",
+               "icon":"textes.gif",
+               "actionType":"OTHER",
+               "actionCmd":null,
+               "childs":[  
+                  {  
+                     "id":"78",
+                     "name":"Variables",
+                     "displayName":"Variables",
+                     "shortcut":"(V)",
+                     "icon":null,
+                     "actionType":"FORM",
+                     "actionCmd":"e_variab",
+                     "childs":[  
+
+                     ]
+                  },
+                  {  
+                     "id":"79",
+                     "name":"Textes",
+                     "displayName":"Texts",
+                     "shortcut":"(T)",
+                     "icon":null,
+                     "actionType":"OTHER",
+                     "actionCmd":"U/stej/stej.jsp?uname=",
+                     "childs":[  
+
+                     ]
+                  },
+                  {  
+                     "id":"80",
+                     "name":"Regles de paragraphes",
+                     "displayName":"Paragraph rules",
+                     "shortcut":"(R)",
+                     "icon":null,
+                     "actionType":"OTHER",
+                     "actionCmd":"U/stej/regles.jsp?runtype=0&uname=",
+                     "childs":[  
+
+                     ]
+                  },
+                  {  
+                     "id":"81",
+                     "name":"Regles destinataires",
+                     "displayName":"Addressee's rules",
+                     "shortcut":"(e)",
+                     "icon":null,
+                     "actionType":"OTHER",
+                     "actionCmd":"U/stej/regles.jsp?runtype=1&uname=",
+                     "childs":[  
+
+                     ]
+                  },
+                  {  
+                     "id":"82",
+                     "name":"Nombre de copies",
+                     "displayName":"Number of copies",
+                     "shortcut":"(N)",
+                     "icon":null,
+                     "actionType":"OTHER",
+                     "actionCmd":"U/stej/regles.jsp?runtype=3&uname=",
+                     "childs":[  
+
+                     ]
+                  },
+                  {  
+                     "id":"83",
+                     "name":"Textes lies",
+                     "displayName":"Related texts",
+                     "shortcut":"(x)",
+                     "icon":null,
+                     "actionType":"FORM",
+                     "actionCmd":"e_sareslie",
+                     "childs":[  
+
+                     ]
+                  },
+                  {  
+                     "id":"84",
+                     "name":"Parametres textes",
+                     "displayName":"Text parameters",
+                     "shortcut":"(P)",
+                     "icon":null,
+                     "actionType":"FORM",
+                     "actionCmd":"e_editeurbis",
+                     "childs":[  
+
+                     ]
+                  }
+               ]
+            },
+            {  
+               "id":"85",
+               "name":"Consultations, simulations",
+               "displayName":"Viewing, simulations",
+               "shortcut":"(V)",
+               "icon":"simulations.gif",
+               "actionType":"OTHER",
+               "actionCmd":null,
+               "childs":[  
+                  {  
+                     "id":"86",
+                     "name":"Simulateur",
+                     "displayName":"Simulator",
+                     "shortcut":"(S)",
+                     "icon":null,
+                     "actionType":"DIALOG",
+                     "actionCmd":"O_e_datque",
+                     "childs":[  
+
+                     ]
+                  },
+                  {  
+                     "id":"87",
+                     "name":"Visu des regles",
+                     "displayName":"Rules display",
+                     "shortcut":"(i)",
+                     "icon":null,
+                     "actionType":"FORM",
+                     "actionCmd":"e_selgroup",
+                     "childs":[  
+
+                     ]
+                  },
+                  {  
+                     "id":"88",
+                     "name":"Classement regles",
+                     "displayName":"Rules classification",
+                     "shortcut":"(C)",
+                     "icon":null,
+                     "actionType":"FORM",
+                     "actionCmd":"e_satproc",
+                     "childs":[  
+
+                     ]
+                  }
+               ]
+            },
+            {  
+               "id":"89",
+               "name":"Domaines de valeurs \"systeme\"",
+               "displayName":"System values list",
+               "shortcut":"(S)",
+               "icon":"valeurs_systeme.gif",
+               "actionType":"OTHER",
+               "actionCmd":null,
+               "childs":[  
+                  {  
+                     "id":"90",
+                     "name":"DV",
+                     "displayName":"LOV",
+                     "shortcut":"(D)",
+                     "icon":null,
+                     "actionType":"FORM",
+                     "actionCmd":"e_nsadomain",
+                     "childs":[  
+
+                     ]
+                  },
+                  {  
+                     "id":"91",
+                     "name":"Types",
+                     "displayName":"Types",
+                     "shortcut":"(T)",
+                     "icon":null,
+                     "actionType":"FORM",
+                     "actionCmd":"e_deftypes",
+                     "childs":[  
+
+                     ]
+                  },
+                  {  
+                     "id":"92",
+                     "name":"Codes imprimantes",
+                     "displayName":"Printer codes",
+                     "shortcut":"(C)",
+                     "icon":null,
+                     "actionType":"FORM",
+                     "actionCmd":"e_codimp",
+                     "childs":[  
+
+                     ]
+                  },
+                  {  
+                     "id":"93",
+                     "name":"Postes imagerie",
+                     "displayName":"Imagery station",
+                     "shortcut":"(P)",
+                     "icon":null,
+                     "actionType":"FORM",
+                     "actionCmd":"e_precrtty",
+                     "childs":[  
+
+                     ]
+                  },
+                  {  
+                     "id":"94",
+                     "name":"Clauses générales",
+                     "displayName":"General clauses",
+                     "shortcut":"(l)",
+                     "icon":null,
+                     "actionType":"FORM",
+                     "actionCmd":"e_aff_lsclfix",
+                     "childs":[  
+
+                     ]
+                  },
+                  {  
+                     "id":"95",
+                     "name":"Menu",
+                     "displayName":"Menu",
+                     "shortcut":"(M)",
+                     "icon":null,
+                     "actionType":"FORM",
+                     "actionCmd":"e_samenu",
+                     "childs":[  
+
+                     ]
+                  },
+                  {  
+                     "id":"96",
+                     "name":"Tri codes calculs",
+                     "displayName":"Calculation codes sorting",
+                     "shortcut":"(r)",
+                     "icon":null,
+                     "actionType":"FORM",
+                     "actionCmd":"e_incdcal",
+                     "childs":[  
+
+                     ]
+                  },
+                  {  
+                     "id":"97",
+                     "name":"Liens Pieces/Categ",
+                     "displayName":"Docs//categs links",
+                     "shortcut":"(i)",
+                     "icon":null,
+                     "actionType":"FORM",
+                     "actionCmd":"e_lienpi",
+                     "childs":[  
+
+                     ]
+                  },
+                  {  
+                     "id":"98",
+                     "name":"Parametrage compta",
+                     "displayName":"Accounting configuration",
+                     "shortcut":"(a)",
+                     "icon":null,
+                     "actionType":"FORM",
+                     "actionCmd":"e_saecr",
+                     "childs":[  
+
+                     ]
+                  },
+                  {  
+                     "id":"99",
+                     "name":"TCP/IP",
+                     "displayName":"TCP//IP",
+                     "shortcut":"(T)",
+                     "icon":null,
+                     "actionType":"FORM",
+                     "actionCmd":"e_tcpip",
+                     "childs":[  
+
+                     ]
+                  }
+               ]
+            },
+            {  
+               "id":"100",
+               "name":"Domaines de valeurs",
+               "displayName":"Values list",
+               "shortcut":"(a)",
+               "icon":null,
+               "actionType":"OTHER",
+               "actionCmd":null,
+               "childs":[  
+                  {  
+                     "id":"101",
+                     "name":"CpVille",
+                     "displayName":"Pc//City",
+                     "shortcut":"(C)",
+                     "icon":null,
+                     "actionType":"FORM",
+                     "actionCmd":"e_sacpvill",
+                     "childs":[  
+
+                     ]
+                  },
+                  {  
+                     "id":"102",
+                     "name":"Intérêts",
+                     "displayName":"Legal interest rates",
+                     "shortcut":"(I)",
+                     "icon":null,
+                     "actionType":"FORM",
+                     "actionCmd":"e_saintere",
+                     "childs":[  
+
+                     ]
+                  },
+                  {  
+                     "id":"103",
+                     "name":"Eléments financiers",
+                     "displayName":"Financial elements",
+                     "shortcut":"(E)",
+                     "icon":null,
+                     "actionType":"FORM",
+                     "actionCmd":"e_saelemfi",
+                     "childs":[  
+
+                     ]
+                  },
+                  {  
+                     "id":"104",
+                     "name":"Papiers",
+                     "displayName":"Paper type",
+                     "shortcut":"(P)",
+                     "icon":null,
+                     "actionType":"FORM",
+                     "actionCmd":"e_sapapier",
+                     "childs":[  
+
+                     ]
+                  },
+                  {  
+                     "id":"105",
+                     "name":"Param. Enreg",
+                     "displayName":"Records parameters",
+                     "shortcut":"(a)",
+                     "icon":null,
+                     "actionType":"FORM",
+                     "actionCmd":"e_parenr",
+                     "childs":[  
+
+                     ]
+                  },
+                  {  
+                     "id":"106",
+                     "name":"Param. Facture",
+                     "displayName":"Invoice parameters",
+                     "shortcut":"(r)",
+                     "icon":null,
+                     "actionType":"FORM",
+                     "actionCmd":"e_parfac",
+                     "childs":[  
+
+                     ]
+                  },
+                  {  
+                     "id":"107",
+                     "name":"Param. Facture par UG",
+                     "displayName":"Invoice parameters per BU",
+                     "shortcut":"(m)",
+                     "icon":null,
+                     "actionType":"FORM",
+                     "actionCmd":"e_pfacm",
+                     "childs":[  
+
+                     ]
+                  },
+                  {  
+                     "id":"108",
+                     "name":"Taux de change",
+                     "displayName":"Exchange rate",
+                     "shortcut":"(T)",
+                     "icon":null,
+                     "actionType":"FORM",
+                     "actionCmd":"e_aff_change",
+                     "childs":[  
+
+                     ]
+                  },
+                  {  
+                     "id":"109",
+                     "name":"Taux de TVA",
+                     "displayName":"VAT rate",
+                     "shortcut":"(u)",
+                     "icon":null,
+                     "actionType":"FORM",
+                     "actionCmd":"e_natxtva",
+                     "childs":[  
+
+                     ]
+                  },
+                  {  
+                     "id":"110",
+                     "name":"Taux de base",
+                     "displayName":"Base Rate",
+                     "shortcut":"(x)",
+                     "icon":null,
+                     "actionType":"FORM",
+                     "actionCmd":"e_index",
+                     "childs":[  
+
+                     ]
+                  },
+                  {  
+                     "id":"111",
+                     "name":"Param. filières",
+                     "displayName":"SE procedure settings",
+                     "shortcut":"(f)",
+                     "icon":null,
+                     "actionType":"FORM",
+                     "actionCmd":"e_reggest",
+                     "childs":[  
+
+                     ]
+                  },
+                  {  
+                     "id":"112",
+                     "name":"Barcode",
+                     "displayName":"Barcode",
+                     "shortcut":"(B)",
+                     "icon":null,
+                     "actionType":"FORM",
+                     "actionCmd":"e_regcount",
+                     "childs":[  
+
+                     ]
+                  },
+                  {  
+                     "id":"113",
+                     "name":"Lawyer fees",
+                     "displayName":"Lawyer fees",
+                     "shortcut":"(L)",
+                     "icon":null,
+                     "actionType":"FORM",
+                     "actionCmd":"e_affavocat",
+                     "childs":[  
+
+                     ]
+                  }
+               ]
+            },
+            {  
+               "id":"114",
+               "name":"Scoring",
+               "displayName":"Scoring",
+               "shortcut":"(c)",
+               "icon":null,
+               "actionType":"OTHER",
+               "actionCmd":null,
+               "childs":[  
+                  {  
+                     "id":"115",
+                     "name":"Scoring params",
+                     "displayName":"Scoring params",
+                     "shortcut":"(S)",
+                     "icon":null,
+                     "actionType":"FORM",
+                     "actionCmd":"e_paramscore",
+                     "childs":[  
+
+                     ]
+                  },
+                  {  
+                     "id":"116",
+                     "name":"Visu résultat",
+                     "displayName":"View result",
+                     "shortcut":"(V)",
+                     "icon":null,
+                     "actionType":"FORM",
+                     "actionCmd":"e_viscore",
+                     "childs":[  
+
+                     ]
+                  }
+               ]
+            },
+            {  
+               "id":"117",
+               "name":"Extranet flow parameterization",
+               "displayName":"Extranet flow parameterization",
+               "shortcut":"(V)",
+               "icon":null,
+               "actionType":"FORM",
+               "actionCmd":"e_param_upload",
+               "childs":[  
+
+               ]
+            },
+            {  
+               "id":"118",
+               "name":"L'entreprise et son personnel",
+               "displayName":"The company and staff",
+               "shortcut":"(h)",
+               "icon":null,
+               "actionType":"OTHER",
+               "actionCmd":null,
+               "childs":[  
+                  {  
+                     "id":"119",
+                     "name":"Parametres Generaux",
+                     "displayName":"General parameters",
+                     "shortcut":"(P)",
+                     "icon":null,
+                     "actionType":"FORM",
+                     "actionCmd":"e_saetude",
+                     "childs":[  
+
+                     ]
+                  },
+                  {  
+                     "id":"120",
+                     "name":"Comptes bancaires UG",
+                     "displayName":"Bank accounts",
+                     "shortcut":"(C)",
+                     "icon":null,
+                     "actionType":"FORM",
+                     "actionCmd":"e_cptbq",
+                     "childs":[  
+
+                     ]
+                  },
+                  {  
+                     "id":"121",
+                     "name":"Gestion utilisateurs",
+                     "displayName":"Users management",
+                     "shortcut":"(G)",
+                     "icon":null,
+                     "actionType":"FORM",
+                     "actionCmd":"e_saperso",
+                     "childs":[  
+
+                     ]
+                  },
+                  {  
+                     "id":"122",
+                     "name":"Autorisations menus",
+                     "displayName":"Menu authorizations",
+                     "shortcut":"(A)",
+                     "icon":null,
+                     "actionType":"FORM",
+                     "actionCmd":"e_chmenu",
+                     "childs":[  
+
+                     ]
+                  },
+                  {  
+                     "id":"123",
+                     "name":"Postes de travail",
+                     "displayName":"Work stations",
+                     "shortcut":"(o)",
+                     "icon":null,
+                     "actionType":"FORM",
+                     "actionCmd":"e_satty",
+                     "childs":[  
+
+                     ]
+                  },
+                  {  
+                     "id":"124",
+                     "name":"Utilisateurs EXTRANET",
+                     "displayName":"Extranet users",
+                     "shortcut":"(U)",
+                     "icon":null,
+                     "actionType":"FORM",
+                     "actionCmd":"e_authextr",
+                     "childs":[  
+
+                     ]
+                  },
+                  {  
+                     "id":"125",
+                     "name":"Autorisations sur pieces",
+                     "displayName":"Documents authorizations",
+                     "shortcut":"(t)",
+                     "icon":null,
+                     "actionType":"FORM",
+                     "actionCmd":"e_chpiece",
+                     "childs":[  
+
+                     ]
+                  },
+                  {  
+                     "id":"126",
+                     "name":"Agenda utilisateur",
+                     "displayName":"User's diary",
+                     "shortcut":"(e)",
+                     "icon":null,
+                     "actionType":"FORM",
+                     "actionCmd":"e_agenda",
+                     "childs":[  
+
+                     ]
+                  },
+                  {  
+                     "id":"127",
+                     "name":"Jours feries",
+                     "displayName":"Public holidays",
+                     "shortcut":"(r)",
+                     "icon":null,
+                     "actionType":"FORM",
+                     "actionCmd":"e_saferies",
+                     "childs":[  
+
+                     ]
+                  },
+                  {  
+                     "id":"128",
+                     "name":"Couleurs",
+                     "displayName":"Colours",
+                     "shortcut":"(l)",
+                     "icon":null,
+                     "actionType":"FORM",
+                     "actionCmd":"e_sacouleur",
+                     "childs":[  
+
+                     ]
+                  },
+                  {  
+                     "id":"129",
+                     "name":"Changement pwd utilisateur",
+                     "displayName":"Changing password",
+                     "shortcut":"(h)",
+                     "icon":null,
+                     "actionType":"FORM",
+                     "actionCmd":"e_passwadm",
+                     "childs":[  
+
+                     ]
+                  },
+                  {  
+                     "id":"130",
+                     "name":"adm pass",
+                     "displayName":"Setting password",
+                     "shortcut":"(d)",
+                     "icon":null,
+                     "actionType":"FORM",
+                     "actionCmd":"e_reglpass",
+                     "childs":[  
+
+                     ]
+                  },
+                  {  
+                     "id":"131",
+                     "name":"Unités de gestion",
+                     "displayName":"Business units management",
+                     "shortcut":"(n)",
+                     "icon":null,
+                     "actionType":"FORM",
+                     "actionCmd":"e_aff_safact",
+                     "childs":[  
+
+                     ]
+                  },
+                  {  
+                     "id":"132",
+                     "name":"Groupes de gestion",
+                     "displayName":"Management groups",
+                     "shortcut":"(s)",
+                     "icon":null,
+                     "actionType":"FORM",
+                     "actionCmd":"e_aff_fctgrp",
+                     "childs":[  
+
+                     ]
+                  },
+                  {  
+                     "id":"133",
+                     "name":"TTY",
+                     "displayName":"TTY",
+                     "shortcut":"(Y)",
+                     "icon":null,
+                     "actionType":"FORM",
+                     "actionCmd":"e_tcpip",
+                     "childs":[  
+
+                     ]
+                  },
+                  {  
+                     "id":"134",
+                     "name":"Gestion utilisateurs externes",
+                     "displayName":"External users management",
+                     "shortcut":"(i)",
+                     "icon":null,
+                     "actionType":"FORM",
+                     "actionCmd":"e_extruser",
+                     "childs":[  
+
+                     ]
+                  }
+               ]
+            },
+            {  
+               "id":"135",
+               "name":"Gestion du mot de passe",
+               "displayName":"Changing password",
+               "shortcut":"(i)",
+               "icon":"mot_passe.gif",
+               "actionType":"FORM",
+               "actionCmd":"e_password",
+               "childs":[  
+
+               ]
+            },
+            {  
+               "id":"136",
+               "name":"Gestion couleurs",
+               "displayName":"Colours",
+               "shortcut":"(i)",
+               "icon":null,
+               "actionType":"FORM",
+               "actionCmd":"e_coulgest",
+               "childs":[  
+
+               ]
+            },
+            {  
+               "id":"137",
+               "name":"Suivi des travaux",
+               "displayName":"Tasks follow-up",
+               "shortcut":"(k)",
+               "icon":"suivi_travaux.gif",
+               "actionType":"OTHER",
+               "actionCmd":null,
+               "childs":[  
+                  {  
+                     "id":"138",
+                     "name":"Controle des interfaces",
+                     "displayName":"Interfaces follow-up",
+                     "shortcut":"(C)",
+                     "icon":null,
+                     "actionType":"FORM",
+                     "actionCmd":"e_ctrl",
+                     "childs":[  
+
+                     ]
+                  },
+                  {  
+                     "id":"139",
+                     "name":"Travaux differes",
+                     "displayName":"Deffered tasks",
+                     "shortcut":"(T)",
+                     "icon":null,
+                     "actionType":"FORM",
+                     "actionCmd":"e_prbatch",
+                     "childs":[  
+
+                     ]
+                  },
+                  {  
+                     "id":"140",
+                     "name":"Taches en attente",
+                     "displayName":"Pending tasks",
+                     "shortcut":"(a)",
+                     "icon":null,
+                     "actionType":"FORM",
+                     "actionCmd":"e_modifmsq",
+                     "childs":[  
+
+                     ]
+                  },
+                  {  
+                     "id":"141",
+                     "name":"Niveau de priorite",
+                     "displayName":"Priority level",
+                     "shortcut":"(N)",
+                     "icon":null,
+                     "actionType":"FORM",
+                     "actionCmd":"e_prty",
+                     "childs":[  
+
+                     ]
+                  },
+                  {  
+                     "id":"142",
+                     "name":"Reactivation de dossiers",
+                     "displayName":"Case re-activation",
+                     "shortcut":"(R)",
+                     "icon":null,
+                     "actionType":"FORM",
+                     "actionCmd":"e_reactdoss",
+                     "childs":[  
+
+                     ]
+                  },
+                  {  
+                     "id":"143",
+                     "name":"Suppression des dossiers",
+                     "displayName":"Case deletion",
+                     "shortcut":"(S)",
+                     "icon":null,
+                     "actionType":"FORM",
+                     "actionCmd":"e_deldoss",
+                     "childs":[  
+
+                     ]
+                  },
+                  {  
+                     "id":"144",
+                     "name":"Pilotage",
+                     "displayName":"Steering",
+                     "shortcut":"(P)",
+                     "icon":null,
+                     "actionType":"FORM",
+                     "actionCmd":"e_trpil",
+                     "childs":[  
+
+                     ]
+                  },
+                  {  
+                     "id":"145",
+                     "name":"Suivi des erreurs",
+                     "displayName":"Errors follow-up",
+                     "shortcut":"(u)",
+                     "icon":null,
+                     "actionType":"FORM",
+                     "actionCmd":"e_erreurs",
+                     "childs":[  
+
+                     ]
+                  },
+                  {  
+                     "id":"146",
+                     "name":"Indicators dashboard",
+                     "displayName":"Indicators dashboard",
+                     "shortcut":"(I)",
+                     "icon":null,
+                     "actionType":"FORM",
+                     "actionCmd":"e_admin_dashboard",
+                     "childs":[  
+
+                     ]
+                  },
+                  {  
+                     "id":"147",
+                     "name":"Test",
+                     "displayName":"Test",
+                     "shortcut":"(e)",
+                     "icon":null,
+                     "actionType":"FORM",
+                     "actionCmd":"e_visattr",
+                     "childs":[  
+
+                     ]
+                  }
+               ]
+            },
+            {  
+               "id":"148",
+               "name":"Réaffectation équitable de dossiers",
+               "displayName":"Reallocation of cases",
+               "shortcut":"(e)",
+               "icon":null,
+               "actionType":"FORM",
+               "actionCmd":"e_reaffqui",
+               "childs":[  
+
+               ]
+            },
+            {  
+               "id":"149",
+               "name":"Transfert d'agenda",
+               "displayName":"Diary transfer",
+               "shortcut":"(e)",
+               "icon":null,
+               "actionType":"FORM",
+               "actionCmd":"e_transenc",
+               "childs":[  
+
+               ]
+            },
+            {  
+               "id":"150",
+               "name":"Client",
+               "displayName":"Client",
+               "shortcut":"(e)",
+               "icon":null,
+               "actionType":"FORM",
+               "actionCmd":"e_err_cli",
+               "childs":[  
+
+               ]
+            }
+         ]
+      },
+      {  
+         "id":"151",
+         "name":"EXPLOITATION",
+         "displayName":"OPERATION",
+         "shortcut":"(O)",
+         "icon":null,
+         "actionType":"OTHER",
+         "actionCmd":null,
+         "childs":[  
+            {  
+               "id":"152",
+               "name":"Textes en attente d'edition",
+               "displayName":"Texts in queue",
+               "shortcut":"(e)",
+               "icon":null,
+               "actionType":"FORM",
+               "actionCmd":"e_spool",
+               "childs":[  
+
+               ]
+            },
+            {  
+               "id":"153",
+               "name":"Gestion des editions parametrees",
+               "displayName":"Report management",
+               "shortcut":"(R)",
+               "icon":"editions_parametrees.gif",
+               "actionType":"OTHER",
+               "actionCmd":null,
+               "childs":[  
+                  {  
+                     "id":"154",
+                     "name":"Lancer",
+                     "displayName":"Launch",
+                     "shortcut":"(L)",
+                     "icon":null,
+                     "actionType":"FORM",
+                     "actionCmd":"e_exerep",
+                     "childs":[  
+
+                     ]
+                  },
+                  {  
+                     "id":"155",
+                     "name":"Liste des appels",
+                     "displayName":"Calls list",
+                     "shortcut":"(i)",
+                     "icon":null,
+                     "actionType":"FORM",
+                     "actionCmd":"e_t_exerep",
+                     "childs":[  
+
+                     ]
+                  },
+                  {  
+                     "id":"156",
+                     "name":"Definition",
+                     "displayName":"Definition",
+                     "shortcut":"(D)",
+                     "icon":null,
+                     "actionType":"FORM",
+                     "actionCmd":"e_defrep",
+                     "childs":[  
+
+                     ]
+                  },
+                  {  
+                     "id":"157",
+                     "name":"Liste de rapports AD",
+                     "displayName":"List of AD reports",
+                     "shortcut":"(s)",
+                     "icon":null,
+                     "actionType":"FORM",
+                     "actionCmd":"e_adreport",
+                     "childs":[  
+
+                     ]
+                  },
+                  {  
+                     "id":"158",
+                     "name":"Indicateurs",
+                     "displayName":"Indicators",
+                     "shortcut":"(n)",
+                     "icon":null,
+                     "actionType":"FORM",
+                     "actionCmd":"e_indicateurs",
+                     "childs":[  
+
+                     ]
+                  },
+                  {  
+                     "id":"159",
+                     "name":null,
+                     "displayName":"Indicators",
+                     "shortcut":null,
+                     "icon":null,
+                     "actionType":"OTHER",
+                     "actionCmd":null,
+                     "childs":[  
+
+                     ]
+                  }
+               ]
+            },
+            {  
+               "id":"160",
+               "name":"Courriers recommandés",
+               "displayName":"Registered mails",
+               "shortcut":null,
+               "icon":null,
+               "actionType":"FORM",
+               "actionCmd":"e_reglist",
+               "childs":[  
+
+               ]
+            },
+            {  
+               "id":"161",
+               "name":"Gestion des images",
+               "displayName":"Images handling",
+               "shortcut":"(I)",
+               "icon":"images.gif",
+               "actionType":"OTHER",
+               "actionCmd":null,
+               "childs":[  
+                  {  
+                     "id":"162",
+                     "name":"Affectation pieces",
+                     "displayName":"Scanned docs allocation",
+                     "shortcut":"(A)",
+                     "icon":null,
+                     "actionType":"FORM",
+                     "actionCmd":"e_majimage",
+                     "childs":[  
+
+                     ]
+                  },
+                  {  
+                     "id":"163",
+                     "name":"Lots d'images",
+                     "displayName":"Images pre-allocation",
+                     "shortcut":"(L)",
+                     "icon":null,
+                     "actionType":"FORM",
+                     "actionCmd":"e_lotimage",
+                     "childs":[  
+
+                     ]
+                  },
+                  {  
+                     "id":"164",
+                     "name":"Maintenance Imagerie",
+                     "displayName":"Imagery maintenance",
+                     "shortcut":"(M)",
+                     "icon":null,
+                     "actionType":"FORM",
+                     "actionCmd":"e_ctrima",
+                     "childs":[  
+
+                     ]
+                  }
+               ]
+            },
+            {  
+               "id":"165",
+               "name":"Traitement des telecopies",
+               "displayName":"Fax processing",
+               "shortcut":"(F)",
+               "icon":null,
+               "actionType":"OTHER",
+               "actionCmd":null,
+               "childs":[  
+                  {  
+                     "id":"166",
+                     "name":"FAX en Envoi",
+                     "displayName":"Outgoing faxes",
+                     "shortcut":"(F)",
+                     "icon":null,
+                     "actionType":"FORM",
+                     "actionCmd":"e_visufax",
+                     "childs":[  
+
+                     ]
+                  },
+                  {  
+                     "id":"167",
+                     "name":"FAX en Reception",
+                     "displayName":"Incoming faxes",
+                     "shortcut":"(A)",
+                     "icon":null,
+                     "actionType":"FORM",
+                     "actionCmd":"e_arrifax",
+                     "childs":[  
+
+                     ]
+                  },
+                  {  
+                     "id":"168",
+                     "name":"Gestion FAX",
+                     "displayName":"Fax management",
+                     "shortcut":"(G)",
+                     "icon":null,
+                     "actionType":"FORM",
+                     "actionCmd":"e_faxadmin",
+                     "childs":[  
+
+                     ]
+                  }
+               ]
+            },
+            {  
+               "id":"169",
+               "name":"Gestion des emails",
+               "displayName":"Emails management",
+               "shortcut":"(m)",
+               "icon":null,
+               "actionType":"OTHER",
+               "actionCmd":null,
+               "childs":[  
+                  {  
+                     "id":"170",
+                     "name":"Mail Courriers",
+                     "displayName":"Email settings",
+                     "shortcut":"(M)",
+                     "icon":null,
+                     "actionType":"FORM",
+                     "actionCmd":"e_prmmailauto",
+                     "childs":[  
+
+                     ]
+                  },
+                  {  
+                     "id":"171",
+                     "name":"Reception des mails",
+                     "displayName":"Incoming e-mails",
+                     "shortcut":"(R)",
+                     "icon":null,
+                     "actionType":"FORM",
+                     "actionCmd":"e_suivimail",
+                     "childs":[  
+
+                     ]
+                  },
+                  {  
+                     "id":"172",
+                     "name":"Mail Int",
+                     "displayName":"Email settings per inv. party",
+                     "shortcut":"(a)",
+                     "icon":null,
+                     "actionType":"FORM",
+                     "actionCmd":"e_prmmailint",
+                     "childs":[  
+
+                     ]
+                  },
+                  {  
+                     "id":"173",
+                     "name":"Envoi des mails",
+                     "displayName":"Outgoing mails",
+                     "shortcut":"(E)",
+                     "icon":null,
+                     "actionType":"FORM",
+                     "actionCmd":"e_mail",
+                     "childs":[  
+
+                     ]
+                  },
+                  {  
+                     "id":"174",
+                     "name":"Admin Mail",
+                     "displayName":"Email management",
+                     "shortcut":"(i)",
+                     "icon":null,
+                     "actionType":"FORM",
+                     "actionCmd":"e_mailadmin",
+                     "childs":[  
+
+                     ]
+                  },
+                  {  
+                     "id":"175",
+                     "name":"Configuration des Emails",
+                     "displayName":"Email configuration",
+                     "shortcut":"(C)",
+                     "icon":null,
+                     "actionType":"FORM",
+                     "actionCmd":"e_mailconfig",
+                     "childs":[  
+
+                     ]
+                  },
+                  {  
+                     "id":"176",
+                     "name":null,
+                     "displayName":null,
+                     "shortcut":null,
+                     "icon":null,
+                     "actionType":"OTHER",
+                     "actionCmd":null,
+                     "childs":[  
+
+                     ]
+                  }
+               ]
+            },
+            {  
+               "id":"177",
+               "name":"Realtime listings",
+               "displayName":"Telephony management",
+               "shortcut":null,
+               "icon":null,
+               "actionType":"FORM",
+               "actionCmd":"e_teletat",
+               "childs":[  
+
+               ]
+            },
+            {  
+               "id":"178",
+               "name":"SMS limitation",
+               "displayName":"SMS limitation",
+               "shortcut":null,
+               "icon":null,
+               "actionType":"FORM",
+               "actionCmd":"e_smslim",
+               "childs":[  
+
+               ]
+            },
+            {  
+               "id":"179",
+               "name":"Admin IMX TEL",
+               "displayName":"Admin IMX TEL",
+               "shortcut":null,
+               "icon":null,
+               "actionType":"OTHER",
+               "actionCmd":"crx_tel",
+               "childs":[  
+
+               ]
+            },
+            {  
+               "id":"180",
+               "name":"Fonctions d'administration systeme",
+               "displayName":"System management functions",
+               "shortcut":null,
+               "icon":"adm_systeme.gif",
+               "actionType":"FORM",
+               "actionCmd":"e_sysadm2",
+               "childs":[  
+
+               ]
+            },
+            {  
+               "id":"181",
+               "name":"Export/Import du Systeme Expert",
+               "displayName":"ES export//import",
+               "shortcut":"(x)",
+               "icon":null,
+               "actionType":"OTHER",
+               "actionCmd":null,
+               "childs":[  
+                  {  
+                     "id":"182",
+                     "name":"Export",
+                     "displayName":"ES export",
+                     "shortcut":"(E)",
+                     "icon":null,
+                     "actionType":"FORM",
+                     "actionCmd":"e_export",
+                     "childs":[  
+
+                     ]
+                  },
+                  {  
+                     "id":"183",
+                     "name":"Import",
+                     "displayName":"ES import",
+                     "shortcut":"(I)",
+                     "icon":null,
+                     "actionType":"FORM",
+                     "actionCmd":"e_import",
+                     "childs":[  
+
+                     ]
+                  },
+                  {  
+                     "id":"184",
+                     "name":"Parametrage",
+                     "displayName":"Settings",
+                     "shortcut":"(P)",
+                     "icon":null,
+                     "actionType":"FORM",
+                     "actionCmd":"e_paramio",
+                     "childs":[  
+
+                     ]
+                  }
+               ]
+            }
+         ]
+      },
+      {  
+         "id":"185",
+         "name":"COMPTABILITE",
+         "displayName":"ACCOUNTING",
+         "shortcut":"(A)",
+         "icon":null,
+         "actionType":"OTHER",
+         "actionCmd":null,
+         "childs":[  
+            {  
+               "id":"186",
+               "name":"Traitement apres exploitation",
+               "displayName":"Daily accounting entries validation",
+               "shortcut":"(D)",
+               "icon":"traitement_exploitation.gif",
+               "actionType":"OTHER",
+               "actionCmd":null,
+               "childs":[  
+                  {  
+                     "id":"187",
+                     "name":"Bordereaux de remise",
+                     "displayName":"Bank remittance slip",
+                     "shortcut":"(B)",
+                     "icon":null,
+                     "actionType":"FORM",
+                     "actionCmd":"e_aff_iexbordr",
+                     "childs":[  
+
+                     ]
+                  }
+               ]
+            },
+            {  
+               "id":"188",
+               "name":"Tables spécifiques compta",
+               "displayName":"Accounting tables",
+               "shortcut":"(A)",
+               "icon":null,
+               "actionType":"OTHER",
+               "actionCmd":null,
+               "childs":[  
+                  {  
+                     "id":"189",
+                     "name":"ACCOUNTING TABLES",
+                     "displayName":"Accounting data for export",
+                     "shortcut":"(A)",
+                     "icon":null,
+                     "actionType":"FORM",
+                     "actionCmd":"e_cptexp",
+                     "childs":[  
+
+                     ]
+                  },
+                  {  
+                     "id":"190",
+                     "name":"Historique écritures",
+                     "displayName":"History of accounting entries",
+                     "shortcut":"(H)",
+                     "icon":null,
+                     "actionType":"FORM",
+                     "actionCmd":"e_ecr_compta_bak",
+                     "childs":[  
+
+                     ]
+                  },
+                  {  
+                     "id":"191",
+                     "name":"Ecritures non validées",
+                     "displayName":"Detailed accounting entries",
+                     "shortcut":"(E)",
+                     "icon":null,
+                     "actionType":"FORM",
+                     "actionCmd":"e_ecr_compta",
+                     "childs":[  
+
+                     ]
+                  }
+               ]
+            },
+            {  
+               "id":"192",
+               "name":"Gestion de l'environnement comptable",
+               "displayName":"Management of the accounting param",
+               "shortcut":"(M)",
+               "icon":"environnement_comptable.gif",
+               "actionType":"OTHER",
+               "actionCmd":null,
+               "childs":[  
+                  {  
+                     "id":"193",
+                     "name":"Param. OPCODE",
+                     "displayName":"OPCODE param",
+                     "shortcut":"(P)",
+                     "icon":null,
+                     "actionType":"FORM",
+                     "actionCmd":"e_lsparam",
+                     "childs":[  
+
+                     ]
+                  },
+                  {  
+                     "id":"194",
+                     "name":"Param. Comptes",
+                     "displayName":"Account parameters",
+                     "shortcut":"(a)",
+                     "icon":null,
+                     "actionType":"FORM",
+                     "actionCmd":"e_prm_account",
+                     "childs":[  
+
+                     ]
+                  },
+                  {  
+                     "id":"195",
+                     "name":"Param. Doccode",
+                     "displayName":"Doccode parameters",
+                     "shortcut":"(r)",
+                     "icon":null,
+                     "actionType":"FORM",
+                     "actionCmd":"e_doccode",
+                     "childs":[  
+
+                     ]
+                  },
+                  {  
+                     "id":"196",
+                     "name":"Param. ISABEL",
+                     "displayName":"Mapping of trans. codes",
+                     "shortcut":"(m)",
+                     "icon":null,
+                     "actionType":"FORM",
+                     "actionCmd":"e_opcode",
+                     "childs":[  
+
+                     ]
+                  },
+                  {  
+                     "id":"197",
+                     "name":"Codification individus",
+                     "displayName":"Individual's account codes",
+                     "shortcut":"(C)",
+                     "icon":null,
+                     "actionType":"FORM",
+                     "actionCmd":"e_cptindiv",
+                     "childs":[  
+
+                     ]
+                  },
+                  {  
+                     "id":"198",
+                     "name":null,
+                     "displayName":null,
+                     "shortcut":null,
+                     "icon":null,
+                     "actionType":"OTHER",
+                     "actionCmd":null,
+                     "childs":[  
+
+                     ]
+                  }
+               ]
+            },
+            {  
+               "id":"199",
+               "name":"Gestion des provisions",
+               "displayName":"Provision management",
+               "shortcut":"(P)",
+               "icon":null,
+               "actionType":"OTHER",
+               "actionCmd":null,
+               "childs":[  
+                  {  
+                     "id":"200",
+                     "name":"Provisions à valider",
+                     "displayName":"Provisions for validation",
+                     "shortcut":"(P)",
+                     "icon":null,
+                     "actionType":"FORM",
+                     "actionCmd":"e_prov_val",
+                     "childs":[  
+
+                     ]
+                  },
+                  {  
+                     "id":"201",
+                     "name":"Provisions validées",
+                     "displayName":"Validated provisions",
+                     "shortcut":"(r)",
+                     "icon":null,
+                     "actionType":"FORM",
+                     "actionCmd":"e_prov_hval",
+                     "childs":[  
+
+                     ]
+                  }
+               ]
+            },
+            {  
+               "id":"202",
+               "name":"Overview of outgoing movements",
+               "displayName":"Overview of outgoing movements",
+               "shortcut":"(r)",
+               "icon":null,
+               "actionType":"FORM",
+               "actionCmd":"e_lotcol",
+               "childs":[  
+
+               ]
+            },
+            {  
+               "id":"203",
+               "name":"Overview of bank statements",
+               "displayName":"Overview of bank statements",
+               "shortcut":"(r)",
+               "icon":null,
+               "actionType":"FORM",
+               "actionCmd":"e_lotcptin",
+               "childs":[  
+
+               ]
+            },
+            {  
+               "id":"204",
+               "name":"Client accounting tables",
+               "displayName":"Client accounting tables",
+               "shortcut":"(r)",
+               "icon":null,
+               "actionType":"FORM",
+               "actionCmd":"e_cptexp",
+               "childs":[  
+
+               ]
+            }
+         ]
+      }
+   ]
+}

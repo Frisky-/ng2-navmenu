@@ -1,0 +1,6 @@
+<ul *ngIf="navItems">
+    <li *ngFor="let item of navItems.childs; let i = index">
+        <a [routerLink]="item.actionCmd" (click)="setActive(item, navItems)">{{ item.displayName }}</a><br>
+        <app-nav-item [navItems]="item"></app-nav-item>
+    </li>
+</ul>

@@ -1,0 +1,10 @@
+nav { 
+    ul {
+        padding: 0;
+    }
+
+   ul > li * ul {
+       display: none;
+   }
+    
+}
